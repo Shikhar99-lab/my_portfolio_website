@@ -1,0 +1,139 @@
+{
+    "portfolios": [
+      {
+        "name": "Avadhut Sathe",
+        "company": "PaaramiDigital",
+        "image": "img/asta.png",
+        "website": "https://www.avadhutsathe.com/"
+      },
+      {
+        "name": "UFO Moviez",
+        "company": "PaaramiDigital",
+        "image": "img/ufo.png",
+        "website": "https://ufomoviez.com"
+      },
+      {
+        "name": "Periyar Gaushala",
+        "company": "PaaramiDigital",
+        "image": "img/periyar.png",
+        "website": "https://www.periyargaushala.com"
+      },
+      {
+        "name": "Sanjay Chemicals",
+        "company": "PaaramiDigital",
+        "image": "img/sanjay.png",
+        "website": "https://www.sanjaychemicalworks.com"
+      },
+      {
+        "name": "Clinico",
+        "company": "PaaramiDigital",
+        "image": "img/clinico.png",
+        "website": "https://www.clinico.in"
+      },
+      {
+        "name": "BesameWellness",
+        "company": "PaaramiDigital",
+        "image": "img/besame.png",
+        "website": "https://www.besamewellness.com"
+      },
+      {
+        "name": "FVC",
+        "company": "PaaramiDigital",
+        "image": "img/fvc.png",
+        "website": "https://www.fvc.com"
+      },
+      {
+        "name": "Moviebeam",
+        "company": "PaaramiDigital",
+        "image": "img/movie.png",
+        "website": "https://www.moviebeam.com"
+      },
+      {
+        "name": "Mohempic",
+        "company": "PaaramiDigital",
+        "image": "img/mohem.png",
+        "website": "https://mohempic.com/"
+      },
+      {
+        "name": "Mindfield",
+        "company": "PaaramiDigital",
+        "image": "img/mind.png",
+        "website": "https://www.mindfieldresources.com/"
+      },
+      {
+        "name": "GTLInfra",
+        "company": "PaaramiDigital",
+        "image": "img/gtl.png",
+        "website": "https://www.gtlinfra.com/"
+      },
+      {
+        "name": "AnssiWellness",
+        "company": "PaaramiDigital",
+        "image": "img/anssi.png",
+        "website": "https://www.anssiwellness.com"
+      },
+      {
+        "name": "ActionAgainstHunger",
+        "company": "CreativeWebo",
+        "image": "img/aah.png",
+        "website": "https://actionagainsthunger.in"
+      },
+      {
+        "name": "CreativeWeboBlog",
+        "company": "CreativeWebo",
+        "image": "img/creative.png",
+        "website": "https://creativewebo.com/blog/"
+      },
+      {
+        "name": "GPK logistech",
+        "image": "img/gpk.png",
+        "website": "https://www.gpklogistech.com/"
+      },
+      {
+        "name": "CA Borgaonkar",
+        "image": "img/cabor.png",
+        "website": "https://caborgaonkar.com/"
+      },
+      {
+        "name": "Simpfytech",
+        "image": "img/simp.png",
+        "website": "https://simpfytech.com.au/"
+      },
+      {
+        "name": "Zufr",
+        "image": "img/zufr.png",
+        "website": "https://simpfytech.com.au/"
+      },
+      {
+        "name": "EcoKari",
+        "image": "img/ecokari.png",
+        "website": "https://ecokari.com"
+      },
+      {
+        "name": "LuminousPretty",
+        "image": "img/lum.png",
+        "website": "https://www.luminouspretties.co.uk"
+      },
+      {
+        "name": "RBS Intellect",
+        "image": "img/rbs.png",
+        "website": "https://rbsintellect.com"
+      },
+      {
+        "name": "Watchyourhealth",
+        "image": "img/wyh.png",
+        "website": "https://www.watchyourhealth.com"
+      },
+      {
+        "name": "Watchyourhealth Dubai website",
+        "image": "img/wyh.png",
+        "website": "https://www.watchyourhealth.com/du"
+      },
+      {
+        "name": "WYH Marketplace",
+        "image": "img/wyh.png",
+        "website": "https://marketplace.watchyourhealth.com"
+      }
+    ]
+  }
+  

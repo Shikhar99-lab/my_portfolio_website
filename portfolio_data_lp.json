@@ -1,0 +1,59 @@
+{
+    "portfolios": [
+      {
+        "image": "img/wyh.png",
+        "name": "WYH Madhavprash LandingPage",
+        "company": "",
+        "website": "https://www.madhavprash.store"
+      },
+      {
+        "image": "img/asta.png",
+        "name": "Avadhut Sathe LandingPage",
+        "company": "PaaramiDigital",
+        "website": "https://eo.avadhutsathe.com/"
+      },
+      {
+        "image": "img/joint.png",
+        "name": "JointHealers LandingPage",
+        "company": "PaaramiDigital",
+        "website": "https://care.jointhealers.com/"
+      },
+      {
+        "image": "img/aanvi.png",
+        "name": "AanviHearing LandingPage",
+        "company": "PaaramiDigital",
+        "website": "http://care.aanviihearing.com/"
+      },
+      {
+        "image": "img/ffd.png",
+        "name": "FFD LandingPage",
+        "company": "PaaramiDigital",
+        "website": "https://www.drpramodtripathi.com"
+      },
+      {
+        "image": "img/trading.png",
+        "name": "TradingStyle LandingPage",
+        "company": "PaaramiDigital",
+        "website": "https://www.tradingstyle.in/webinar-2022"
+      },
+      {
+        "image": "img/mrudul.png",
+        "name": "Mrudul LandingPage",
+        "company": "PaaramiDigital",
+        "website": "https://hearing.mrudul.in/"
+      },
+      {
+        "image": "img/veiva.png",
+        "name": "Veiva Breakfast LandingPage",
+        "company": "CreativeWebo",
+        "website": "https://veiva.in/breakfast-symposium/"
+      },
+      {
+        "image": "img/bakers.png",
+        "name": "The Bakers Stop LandingPage",
+        "company": "",
+        "website": "https://nifty-perlman-92a1ee.netlify.app/"
+      }
+    ]
+  }
+  

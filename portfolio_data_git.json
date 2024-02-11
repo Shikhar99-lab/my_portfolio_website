@@ -1,0 +1,83 @@
+{
+    "portfolios": [
+      {
+        "image": "img/githubactions.png",
+        "name": "Using GithubActions for Docker",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/basicpipeline-using-githubactions"
+      },
+      {
+        "image": "img/docker.png",
+        "name": "Docker Compose",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/docker-compose"
+      },
+      {
+        "image": "img/kube.png",
+        "name": "3D WebApp in Kubernetes",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/kubernetes-3dwebapp"
+      },
+      {
+        "image": "img/kube.png",
+        "name": "TodoSQL App in Kubernetes",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/kubernetes-todo-sql-app"
+      },
+      {
+        "image": "img/kube.png",
+        "name": "MERN App in Kubernetes",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/kubernetes-mern"
+      },
+      {
+        "image": "img/jenkins.png",
+        "name": "Jenkins to ECR",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/jenkins-to-ecr"
+      },
+      {
+        "image": "img/argo.png",
+        "name": "ArgoCD on Local K8s Cluster",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/argocd-gitops-nginix"
+      },
+      {
+        "image": "img/ansible.png",
+        "name": "Ansible Basic Playbook",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/ansible-101"
+      },
+      {
+        "image": "img/react.png",
+        "name": "TodoApp in React",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/todoApp"
+      },
+      {
+        "image": "img/react.png",
+        "name": "Weather App in React",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/Weather_App_ReactJS"
+      },
+      {
+        "image": "img/react.png",
+        "name": "IMDB Movies in React",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/IMDB_Movies_React"
+      },
+      {
+        "image": "img/mern.png",
+        "name": "MERN Ecommerce Project",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/mern_ecommerce"
+      },
+      {
+        "image": "img/mern.png",
+        "name": "HotelApp in MERN",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/Hotel_MERN"
+      }
+    ]
+  }
+  
