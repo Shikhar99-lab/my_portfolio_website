@@ -13,18 +13,6 @@
         "website": "https://ufomoviez.com"
       },
       {
-        "name": "Periyar Gaushala",
-        "company": "PaaramiDigital",
-        "image": "img/periyar.png",
-        "website": "https://www.periyargaushala.com"
-      },
-      {
-        "name": "Sanjay Chemicals",
-        "company": "PaaramiDigital",
-        "image": "img/sanjay.png",
-        "website": "https://www.sanjaychemicalworks.com"
-      },
-      {
         "name": "Clinico",
         "company": "PaaramiDigital",
         "image": "img/clinico.png",
@@ -71,6 +59,18 @@
         "company": "PaaramiDigital",
         "image": "img/anssi.png",
         "website": "https://www.anssiwellness.com"
+      },
+      {
+        "name": "Periyar Gaushala",
+        "company": "PaaramiDigital",
+        "image": "img/periyar.png",
+        "website": "https://www.periyargaushala.com"
+      },
+      {
+        "name": "Sanjay Chemicals",
+        "company": "PaaramiDigital",
+        "image": "img/sanjay.png",
+        "website": "https://www.sanjaychemicalworks.com"
       },
       {
         "name": "ActionAgainstHunger",
@@ -132,7 +132,17 @@
       {
         "name": "WYH Marketplace",
         "image": "img/wyh.png",
-        "website": "https://marketplace.watchyourhealth.com"
+        "website": "https://marketplaceuat.watchyourhealth.com"
+      },
+      {
+        "name": "Feel To Print",
+        "image": "img/f2p.png",
+        "website": "https://feeltoprint.com"
+      },
+      {
+        "name": "Aditech Solutions",
+        "image": "img/adit.png",
+        "website": "https://aditechsoftwares.com"
       }
     ]
   }
