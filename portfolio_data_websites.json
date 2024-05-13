@@ -67,37 +67,15 @@
         "website": "https://www.periyargaushala.com"
       },
       {
-        "name": "Sanjay Chemicals",
-        "company": "PaaramiDigital",
-        "image": "img/sanjay.png",
-        "website": "https://www.sanjaychemicalworks.com"
-      },
-      {
         "name": "ActionAgainstHunger",
         "company": "CreativeWebo",
         "image": "img/aah.png",
         "website": "https://actionagainsthunger.in"
       },
       {
-        "name": "CreativeWeboBlog",
-        "company": "CreativeWebo",
-        "image": "img/creative.png",
-        "website": "https://creativewebo.com/blog/"
-      },
-      {
         "name": "GPK logistech",
         "image": "img/gpk.png",
         "website": "https://www.gpklogistech.com/"
-      },
-      {
-        "name": "CA Borgaonkar",
-        "image": "img/cabor.png",
-        "website": "https://caborgaonkar.com/"
-      },
-      {
-        "name": "Simpfytech",
-        "image": "img/simp.png",
-        "website": "https://simpfytech.com.au/"
       },
       {
         "name": "Zufr",
@@ -130,11 +108,6 @@
         "website": "https://www.watchyourhealth.com/du"
       },
       {
-        "name": "WYH Marketplace",
-        "image": "img/wyh.png",
-        "website": "https://marketplaceuat.watchyourhealth.com"
-      },
-      {
         "name": "Feel To Print",
         "image": "img/f2p.png",
         "website": "https://feeltoprint.com"
@@ -143,6 +116,12 @@
         "name": "Aditech Solutions",
         "image": "img/adit.png",
         "website": "https://aditechsoftwares.com"
+      },
+      {
+        "image": "img/madhav.png",
+        "name": "Madhavprash Store",
+        "company": "WatchYourHealth",
+        "website": "https://www.madhavprash.store"
       }
     ]
   }
