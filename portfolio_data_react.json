@@ -1,0 +1,35 @@
+{
+    "portfolios": [
+      {
+        "image": "img/react.png",
+        "name": "TodoApp in React",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/todoApp"
+      },
+      {
+        "image": "img/react.png",
+        "name": "Weather App in React",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/Weather_App_ReactJS"
+      },
+      {
+        "image": "img/react.png",
+        "name": "IMDB Movies in React",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/IMDB_Movies_React"
+      },
+      {
+        "image": "img/mern.png",
+        "name": "React Ecommerce Project",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/mern_ecommerce"
+      },
+      {
+        "image": "img/mern.png",
+        "name": "HotelApp in MERN",
+        "company": "",
+        "website": "https://github.com/Shikhar99-lab/Hotel_MERN"
+      }
+    ]
+  }
+  

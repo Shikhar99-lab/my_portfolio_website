@@ -1,0 +1,58 @@
+{
+  "portfolios": [
+    {
+      "image": "img/angular.png",
+      "name": "Unison ~ Admin Panel, UI for Report",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "AdityaBirla ~ Admin Panel, UI for Report",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "Kotak ~ Admin Panel, UI for Report",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "Care ~ Admin Panel",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "NivaBupa ~ Admin Panel, UI for Report",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "CholaMS ~ Admin Panel",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "HappyYou App ~ UI for some components",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "MegaWeCare ~ Admin Panel, UI for Report",
+      "company": "WatchYourHealth",
+      "website": "#"
+    },
+    {
+      "image": "img/angular.png",
+      "name": "PSP ~ Admin Panel",
+      "company": "WatchYourHealth",
+      "website": "#"
+    }
+  ]
+}

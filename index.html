@@ -124,7 +124,7 @@
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">Css3</p>
+                        <p class="prog-title">Css3 | Bootstrap | Tailwind</p>
                         <div style="display: none;" class="progress-con">
                             <p class="prog-text">95%</p>
                             <div class="progress">
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
+                    <!-- <div class="progress-bar">
                         <p class="prog-title">Bootstrap</p>
                         <div style="display: none;" class="progress-con">
                             <p class="prog-text">95%</p>
@@ -140,22 +140,13 @@
                                 <span class="css"></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="progress-bar">
                         <p class="prog-title">Javascript</p>
                         <div style="display: none;" class="progress-con">
                             <p class="prog-text">95%</p>
                             <div class="progress">
                                 <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">WordPress</p>
-                        <div style="display: none;" class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="react"></span>
                             </div>
                         </div>
                     </div>
@@ -223,11 +214,20 @@
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">Git, Github</p>
+                        <p class="prog-title">Git | Github | Bitbucket</p>
                         <div style="display: none;" class="progress-con">
                             <p class="prog-text">70%</p>
                             <div class="progress">
                                 <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">WordPress</p>
+                        <div style="display: none;" class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="react"></span>
                             </div>
                         </div>
                     </div>
@@ -482,9 +482,11 @@
             </h3> -->
             <!-- Tab Links -->
             <ul class="tabs">
-                <li class="tab-link active" data-tab="websites">WEBSITES</li>
-                <li class="tab-link" data-tab="landingpages">LANDING PAGES</li>
-                <li class="tab-link" data-tab="githubprojects">GITHUB PROJECTS</li>
+                <li class="tab-link active" data-tab="websites">PHP | FrontEnd</li>
+                <!-- <li class="tab-link" data-tab="landingpages">LANDING PAGES</li> -->
+                <li class="tab-link" data-tab="react">ReactJS</li>
+                <li class="tab-link" data-tab="angular">AngularJS</li>
+                <li class="tab-link" data-tab="awsdevops">AWS | DevOps</li>
             </ul>
 
             <!-- Tab Content -->
@@ -501,8 +503,20 @@
                     </div>
                 </div>
 
-                <div id="githubprojects" class="tab-content">
-                    <div class="portfolios" id="git-container">
+                <div id="react" class="tab-content">
+                    <div class="portfolios" id="react-container">
+
+                    </div>
+                </div>
+
+                <div id="awsdevops" class="tab-content">
+                    <div class="portfolios" id="devops-container">
+
+                    </div>
+                </div>
+
+                <div id="angular" class="tab-content">
+                    <div class="portfolios" id="angular-container">
 
                     </div>
                 </div>
@@ -703,12 +717,9 @@
             fetch('portfolio_data_websites.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Get the container for websites
                     const portfolioContainer = document.getElementById('portfolio-container');
 
-                    // Loop through the portfolio items for websites
                     data.portfolios.forEach(portfolioItem => {
-                        // Create HTML elements for websites
                         const portfolioItemDiv = document.createElement('div');
                         portfolioItemDiv.classList.add('portfolio-item');
 
@@ -753,12 +764,9 @@
             fetch('portfolio_data_lp.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Get the container for landing pages
                     const lpContainer = document.getElementById('lp-container');
 
-                    // Loop through the portfolio items for landing pages
                     data.portfolios.forEach(lpItem => {
-                        // Create HTML elements for landing pages
                         const lpItemDiv = document.createElement('div');
                         lpItemDiv.classList.add('portfolio-item');
 
@@ -799,18 +807,12 @@
                 })
                 .catch(error => console.error('Error fetching data for landing pages:', error));
 
-
-            // Fetch the JSON data for github
-            // Fetch the JSON data for GitHub projects
-            fetch('portfolio_data_git.json')
+            // Fetch the JSON data for Devops projects
+            fetch('portfolio_data_devops.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Get the correct container for GitHub projects
-                    const gitContainer = document.getElementById('git-container');
-
-                    // Loop through the portfolio items for GitHub projects
+                    const gitContainer = document.getElementById('devops-container');
                     data.portfolios.forEach(gitItem => {
-                        // Create HTML elements for GitHub projects
                         const gitItemDiv = document.createElement('div');
                         gitItemDiv.classList.add('portfolio-item');
 
@@ -838,6 +840,100 @@
                         earthIcon.classList.add('fa-solid', 'fa-earth-asia');
                         websiteLink.appendChild(earthIcon);
                         iconsDiv.appendChild(websiteLink);
+
+                        hoverItemsDiv.appendChild(name);
+                        hoverItemsDiv.appendChild(company);
+                        hoverItemsDiv.appendChild(iconsDiv);
+
+                        gitItemDiv.appendChild(imageDiv);
+                        gitItemDiv.appendChild(hoverItemsDiv);
+
+                        gitContainer.appendChild(gitItemDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching data for GitHub projects:', error));
+
+            // Fetch the JSON data for React projects
+            fetch('portfolio_data_react.json')
+                .then(response => response.json())
+                .then(data => {
+                    const gitContainer = document.getElementById('react-container');
+
+                    data.portfolios.forEach(gitItem => {
+                        const gitItemDiv = document.createElement('div');
+                        gitItemDiv.classList.add('portfolio-item');
+
+                        const imageDiv = document.createElement('div');
+                        imageDiv.classList.add('image');
+                        const image = document.createElement('img');
+                        image.src = gitItem.image;
+                        image.alt = "";
+                        imageDiv.appendChild(image);
+
+                        const hoverItemsDiv = document.createElement('div');
+                        hoverItemsDiv.classList.add('hover-items');
+                        const name = document.createElement('h3');
+                        name.textContent = gitItem.name;
+                        const company = document.createElement('span');
+                        company.classList.add('compname');
+                        company.textContent = gitItem.company;
+                        const iconsDiv = document.createElement('div');
+                        iconsDiv.classList.add('icons');
+                        const websiteLink = document.createElement('a');
+                        websiteLink.href = gitItem.website;
+                        websiteLink.target = '_blank';
+                        websiteLink.classList.add('icon');
+                        const earthIcon = document.createElement('i');
+                        earthIcon.classList.add('fa-solid', 'fa-earth-asia');
+                        websiteLink.appendChild(earthIcon);
+                        iconsDiv.appendChild(websiteLink);
+
+                        hoverItemsDiv.appendChild(name);
+                        hoverItemsDiv.appendChild(company);
+                        hoverItemsDiv.appendChild(iconsDiv);
+
+                        gitItemDiv.appendChild(imageDiv);
+                        gitItemDiv.appendChild(hoverItemsDiv);
+
+                        gitContainer.appendChild(gitItemDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching data for GitHub projects:', error));
+
+            // Fetch the JSON data for Angular projects
+            fetch('portfolio_data_angular.json')
+                .then(response => response.json())
+                .then(data => {
+                    const gitContainer = document.getElementById('angular-container');
+
+                    data.portfolios.forEach(gitItem => {
+                        const gitItemDiv = document.createElement('div');
+                        gitItemDiv.classList.add('portfolio-item');
+
+                        const imageDiv = document.createElement('div');
+                        imageDiv.classList.add('image');
+                        const image = document.createElement('img');
+                        image.src = gitItem.image;
+                        image.alt = "";
+                        imageDiv.appendChild(image);
+
+                        const hoverItemsDiv = document.createElement('div');
+                        hoverItemsDiv.classList.add('hover-items');
+                        const name = document.createElement('h3');
+                        name.textContent = gitItem.name;
+                        const company = document.createElement('span');
+                        company.classList.add('compname');
+                        company.textContent = gitItem.company;
+                        const iconsDiv = document.createElement('div');
+                        iconsDiv.classList.add('icons');
+                        // const websiteLink = document.createElement('a');
+                        // websiteLink.href = gitItem.website;
+                        // websiteLink.target = '_blank';
+                        // websiteLink.classList.add('icon');
+                        // const earthIcon = document.createElement('i');
+                        // earthIcon.classList.add('fa-solid', 'fa-earth-asia');
+                        // websiteLink.appendChild(earthIcon);
+                        // iconsDiv.appendChild(websiteLink);
 
                         hoverItemsDiv.appendChild(name);
                         hoverItemsDiv.appendChild(company);
