@@ -35,7 +35,7 @@
             <div class="right-header">
                 <h1 class="name">
                     Hi, I'm <span>Shikhar Shukla.</span>
-                    A Web Developer & A Cloud Enthusiast
+                    A FullStack Developer & A Cloud Enthusiast
                 </h1>
                 <!-- <p>
                     It's my pleasure to say Hi! I'm Shikhar Shukla</span>. I'm a FrontEnd &
@@ -44,7 +44,10 @@
                     corporate and freelance web development.
 
                 </p> -->
-                <p>Greetings! I'm <span class="numbs">Shikhar Shukla</span>, a Full Stack Developer & Cloud Enthusiast hailing from Kalyan, Maharashtra. With over <span class="numbs">45+</span> projects under my belt, I bring <span class="numbs">3+</span> years of experience in both corporate and freelance web development. Let's elevate your online presence together! 🚀🌐
+                <p>Greetings! I'm <span class="numbs">Shikhar Shukla</span>, a Full Stack Developer & Cloud Enthusiast
+                    hailing from Kalyan, Maharashtra. With over <span class="numbs">45+</span> projects under my belt, I
+                    bring <span class="numbs">3+</span> years of experience in both corporate and freelance web
+                    development. Let's elevate your online presence together! 🚀🌐
                 </p>
                 <div class="btn-con">
                     <a data-id="contact" class="main-btn control">
@@ -65,8 +68,8 @@
                     <h4>Information About me</h4>
                     </p>
                     <div class="btn-con">
-                        <a href="https://docs.google.com/document/d/1kkmXjWIFAroobbyq1Cl8UddKnIABDiXl6o6pLQslyHk/edit?usp=sharing" target="_blank"
-                            class="main-btn">
+                        <a href="https://docs.google.com/document/d/1kkmXjWIFAroobbyq1Cl8UddKnIABDiXl6o6pLQslyHk/edit?usp=sharing"
+                            target="_blank" class="main-btn">
                             <span class="btn-text">Download CV</span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>
@@ -88,11 +91,14 @@
                 </div>
             </div>
             <div class="container1">
-                <p>A FullStack Developer with proven experience at WatchYourHealth since August 2023, PaaramiDigital in 2022-23, ElanAcademy in 2021 & also
-                    Freelancing. I love to tackle complexity and maximize efficiency. I am passionate about Front-End & Back-End
+                <p>A FullStack Developer with proven experience at WatchYourHealth since August 2023, PaaramiDigital in
+                    2022-23, ElanAcademy in 2021 & also
+                    Freelancing. I love to tackle complexity and maximize efficiency. I am passionate about Front-End &
+                    Back-End
                     Development and have mastered WordPress CMS. As a passionate DevOps enthusiast, I have a strong
                     commitment to integrating development and operations to optimize software development processes. I
-                    am proud to hold the <span class="numbs">AWS Certified Cloud Practitioner (CCP)</span> certification, which showcases my
+                    am proud to hold the <span class="numbs">AWS Certified Cloud Practitioner (CCP)</span>
+                    certification, which showcases my
                     comprehensive understanding of core AWS services and cloud concepts. In addition, I have honed my
                     skills as an AWS and Azure Multi-cloud engineer, proficiently deploying and managing applications in
                     a multi-cloud environment. With my expertise in both Amazon Web Services (AWS) and Microsoft Azure,
@@ -456,9 +462,9 @@
                 <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
             </div>
             <p class="port-text">
-               Take a look at my portfolio showcasing some of the projects I've completed.
+                Take a look at my portfolio showcasing some of the projects I've completed.
             </p>
-            <h3 class="port-text">
+            <!-- <h3 class="port-text">
                 WEBSITES
             </h3>
             <div id="portfolio-container" class="portfolios">
@@ -473,11 +479,37 @@
             </div>
             <h3 class="port-text">
                 GITHUB PROJECTS
-            </h3>
+            </h3> -->
+            <!-- Tab Links -->
+            <ul class="tabs">
+                <li class="tab-link active" data-tab="websites">WEBSITES</li>
+                <li class="tab-link" data-tab="landingpages">LANDING PAGES</li>
+                <li class="tab-link" data-tab="githubprojects">GITHUB PROJECTS</li>
+            </ul>
 
-            <div class="portfolios" id="git-container">
-                
+            <!-- Tab Content -->
+            <div class="tab-content-container">
+                <div id="websites" class="tab-content active">
+                    <div id="portfolio-container" class="portfolios">
+
+                    </div>
+                </div>
+
+                <div id="landingpages" class="tab-content">
+                    <div class="portfolios" id="lp-container">
+
+                    </div>
+                </div>
+
+                <div id="githubprojects" class="tab-content">
+                    <div class="portfolios" id="git-container">
+
+                    </div>
+                </div>
+
             </div>
+
+
         </section>
         <!--<section class="container" id="blogs">
             <div class="blogs-content">
@@ -568,7 +600,7 @@
                 <div class="contact-content-con">
                     <p class="showcase1">Get yourself a Professional, Responsive Website that showcases your
                         Business and attracts new customers with our Custom Website Development Services !!</p>
-                        <h4>Contact me here</h4>
+                    <h4>Contact me here</h4>
                     <div class="contact-columns">
                         <div class="left-contact">
                             <div class="contact-info">
@@ -587,7 +619,8 @@
                                 <div class="contact-item">
                                     <div class="icon">
                                         <i class="fas fa-user-graduate"></i>
-                                    </div><a href="https://mu.ac.in/" target="_blank"><span>University of Mumbai</span></a>
+                                    </div><a href="https://mu.ac.in/" target="_blank"><span>University of
+                                            Mumbai</span></a>
                                 </div>
                                 <div class="contact-item">
                                     <div class="icon">
@@ -639,7 +672,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="container" id="website">
 
         </section>
@@ -666,158 +699,182 @@
     <script src="app.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-          // Fetch the JSON data for websites
-          fetch('portfolio_data_websites.json')
-            .then(response => response.json())
-            .then(data => {
-              // Get the container for websites
-              const portfolioContainer = document.getElementById('portfolio-container');
-      
-              // Loop through the portfolio items for websites
-              data.portfolios.forEach(portfolioItem => {
-                // Create HTML elements for websites
-                const portfolioItemDiv = document.createElement('div');
-                portfolioItemDiv.classList.add('portfolio-item');
-      
-                const imageDiv = document.createElement('div');
-                imageDiv.classList.add('image');
-                const image = document.createElement('img');
-                image.src = portfolioItem.image;
-                image.alt = "";
-                imageDiv.appendChild(image);
-      
-                const hoverItemsDiv = document.createElement('div');
-                hoverItemsDiv.classList.add('hover-items');
-                const name = document.createElement('h3');
-                name.textContent = portfolioItem.name;
-                const company = document.createElement('span');
-                company.classList.add('compname');
-                company.textContent = portfolioItem.company;
-                const iconsDiv = document.createElement('div');
-                iconsDiv.classList.add('icons');
-                const websiteLink = document.createElement('a');
-                websiteLink.href = portfolioItem.website;
-                websiteLink.target = '_blank';
-                websiteLink.classList.add('icon');
-                const earthIcon = document.createElement('i');
-                earthIcon.classList.add('fa-solid', 'fa-earth-asia');
-                websiteLink.appendChild(earthIcon);
-                iconsDiv.appendChild(websiteLink);
-      
-                hoverItemsDiv.appendChild(name);
-                hoverItemsDiv.appendChild(company);
-                hoverItemsDiv.appendChild(iconsDiv);
-      
-                portfolioItemDiv.appendChild(imageDiv);
-                portfolioItemDiv.appendChild(hoverItemsDiv);
-      
-                portfolioContainer.appendChild(portfolioItemDiv);
-              });
-            })
-            .catch(error => console.error('Error fetching data for websites:', error));
-      
-          // Fetch the JSON data for landing pages
-          fetch('portfolio_data_lp.json')
-            .then(response => response.json())
-            .then(data => {
-              // Get the container for landing pages
-              const lpContainer = document.getElementById('lp-container');
-      
-              // Loop through the portfolio items for landing pages
-              data.portfolios.forEach(lpItem => {
-                // Create HTML elements for landing pages
-                const lpItemDiv = document.createElement('div');
-                lpItemDiv.classList.add('portfolio-item');
-      
-                const imageDiv = document.createElement('div');
-                imageDiv.classList.add('image');
-                const image = document.createElement('img');
-                image.src = lpItem.image;
-                image.alt = "";
-                imageDiv.appendChild(image);
-      
-                const hoverItemsDiv = document.createElement('div');
-                hoverItemsDiv.classList.add('hover-items');
-                const name = document.createElement('h3');
-                name.textContent = lpItem.name;
-                const company = document.createElement('span');
-                company.classList.add('compname');
-                company.textContent = lpItem.company;
-                const iconsDiv = document.createElement('div');
-                iconsDiv.classList.add('icons');
-                const websiteLink = document.createElement('a');
-                websiteLink.href = lpItem.website;
-                websiteLink.target = '_blank';
-                websiteLink.classList.add('icon');
-                const earthIcon = document.createElement('i');
-                earthIcon.classList.add('fa-solid', 'fa-earth-asia');
-                websiteLink.appendChild(earthIcon);
-                iconsDiv.appendChild(websiteLink);
-      
-                hoverItemsDiv.appendChild(name);
-                hoverItemsDiv.appendChild(company);
-                hoverItemsDiv.appendChild(iconsDiv);
-      
-                lpItemDiv.appendChild(imageDiv);
-                lpItemDiv.appendChild(hoverItemsDiv);
-      
-                lpContainer.appendChild(lpItemDiv);
-              });
-            })
-            .catch(error => console.error('Error fetching data for landing pages:', error));
-        
+            // Fetch the JSON data for websites
+            fetch('portfolio_data_websites.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get the container for websites
+                    const portfolioContainer = document.getElementById('portfolio-container');
 
-                  // Fetch the JSON data for github
-                  fetch('portfolio_data_git.json')
-            .then(response => response.json())
-            .then(data => {
-              // Get the container for landing pages
-              const lpContainer = document.getElementById('git-container');
-      
-              // Loop through the portfolio items for landing pages
-              data.portfolios.forEach(lpItem => {
-                // Create HTML elements for landing pages
-                const lpItemDiv = document.createElement('div');
-                lpItemDiv.classList.add('portfolio-item');
-      
-                const imageDiv = document.createElement('div');
-                imageDiv.classList.add('image');
-                const image = document.createElement('img');
-                image.src = lpItem.image;
-                image.alt = "";
-                imageDiv.appendChild(image);
-      
-                const hoverItemsDiv = document.createElement('div');
-                hoverItemsDiv.classList.add('hover-items');
-                const name = document.createElement('h3');
-                name.textContent = lpItem.name;
-                const company = document.createElement('span');
-                company.classList.add('compname');
-                company.textContent = lpItem.company;
-                const iconsDiv = document.createElement('div');
-                iconsDiv.classList.add('icons');
-                const websiteLink = document.createElement('a');
-                websiteLink.href = lpItem.website;
-                websiteLink.target = '_blank';
-                websiteLink.classList.add('icon');
-                const earthIcon = document.createElement('i');
-                earthIcon.classList.add('fa-solid', 'fa-earth-asia');
-                websiteLink.appendChild(earthIcon);
-                iconsDiv.appendChild(websiteLink);
-      
-                hoverItemsDiv.appendChild(name);
-                hoverItemsDiv.appendChild(company);
-                hoverItemsDiv.appendChild(iconsDiv);
-      
-                lpItemDiv.appendChild(imageDiv);
-                lpItemDiv.appendChild(hoverItemsDiv);
-      
-                lpContainer.appendChild(lpItemDiv);
-              });
-            })
-            .catch(error => console.error('Error fetching data for landing pages:', error));
+                    // Loop through the portfolio items for websites
+                    data.portfolios.forEach(portfolioItem => {
+                        // Create HTML elements for websites
+                        const portfolioItemDiv = document.createElement('div');
+                        portfolioItemDiv.classList.add('portfolio-item');
+
+                        const imageDiv = document.createElement('div');
+                        imageDiv.classList.add('image');
+                        const image = document.createElement('img');
+                        image.src = portfolioItem.image;
+                        image.alt = "";
+                        imageDiv.appendChild(image);
+
+                        const hoverItemsDiv = document.createElement('div');
+                        hoverItemsDiv.classList.add('hover-items');
+                        const name = document.createElement('h3');
+                        name.textContent = portfolioItem.name;
+                        const company = document.createElement('span');
+                        company.classList.add('compname');
+                        company.textContent = portfolioItem.company;
+                        const iconsDiv = document.createElement('div');
+                        iconsDiv.classList.add('icons');
+                        const websiteLink = document.createElement('a');
+                        websiteLink.href = portfolioItem.website;
+                        websiteLink.target = '_blank';
+                        websiteLink.classList.add('icon');
+                        const earthIcon = document.createElement('i');
+                        earthIcon.classList.add('fa-solid', 'fa-earth-asia');
+                        websiteLink.appendChild(earthIcon);
+                        iconsDiv.appendChild(websiteLink);
+
+                        hoverItemsDiv.appendChild(name);
+                        hoverItemsDiv.appendChild(company);
+                        hoverItemsDiv.appendChild(iconsDiv);
+
+                        portfolioItemDiv.appendChild(imageDiv);
+                        portfolioItemDiv.appendChild(hoverItemsDiv);
+
+                        portfolioContainer.appendChild(portfolioItemDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching data for websites:', error));
+
+            // Fetch the JSON data for landing pages
+            fetch('portfolio_data_lp.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get the container for landing pages
+                    const lpContainer = document.getElementById('lp-container');
+
+                    // Loop through the portfolio items for landing pages
+                    data.portfolios.forEach(lpItem => {
+                        // Create HTML elements for landing pages
+                        const lpItemDiv = document.createElement('div');
+                        lpItemDiv.classList.add('portfolio-item');
+
+                        const imageDiv = document.createElement('div');
+                        imageDiv.classList.add('image');
+                        const image = document.createElement('img');
+                        image.src = lpItem.image;
+                        image.alt = "";
+                        imageDiv.appendChild(image);
+
+                        const hoverItemsDiv = document.createElement('div');
+                        hoverItemsDiv.classList.add('hover-items');
+                        const name = document.createElement('h3');
+                        name.textContent = lpItem.name;
+                        const company = document.createElement('span');
+                        company.classList.add('compname');
+                        company.textContent = lpItem.company;
+                        const iconsDiv = document.createElement('div');
+                        iconsDiv.classList.add('icons');
+                        const websiteLink = document.createElement('a');
+                        websiteLink.href = lpItem.website;
+                        websiteLink.target = '_blank';
+                        websiteLink.classList.add('icon');
+                        const earthIcon = document.createElement('i');
+                        earthIcon.classList.add('fa-solid', 'fa-earth-asia');
+                        websiteLink.appendChild(earthIcon);
+                        iconsDiv.appendChild(websiteLink);
+
+                        hoverItemsDiv.appendChild(name);
+                        hoverItemsDiv.appendChild(company);
+                        hoverItemsDiv.appendChild(iconsDiv);
+
+                        lpItemDiv.appendChild(imageDiv);
+                        lpItemDiv.appendChild(hoverItemsDiv);
+
+                        lpContainer.appendChild(lpItemDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching data for landing pages:', error));
+
+
+            // Fetch the JSON data for github
+            // Fetch the JSON data for GitHub projects
+            fetch('portfolio_data_git.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get the correct container for GitHub projects
+                    const gitContainer = document.getElementById('git-container');
+
+                    // Loop through the portfolio items for GitHub projects
+                    data.portfolios.forEach(gitItem => {
+                        // Create HTML elements for GitHub projects
+                        const gitItemDiv = document.createElement('div');
+                        gitItemDiv.classList.add('portfolio-item');
+
+                        const imageDiv = document.createElement('div');
+                        imageDiv.classList.add('image');
+                        const image = document.createElement('img');
+                        image.src = gitItem.image;
+                        image.alt = "";
+                        imageDiv.appendChild(image);
+
+                        const hoverItemsDiv = document.createElement('div');
+                        hoverItemsDiv.classList.add('hover-items');
+                        const name = document.createElement('h3');
+                        name.textContent = gitItem.name;
+                        const company = document.createElement('span');
+                        company.classList.add('compname');
+                        company.textContent = gitItem.company;
+                        const iconsDiv = document.createElement('div');
+                        iconsDiv.classList.add('icons');
+                        const websiteLink = document.createElement('a');
+                        websiteLink.href = gitItem.website;
+                        websiteLink.target = '_blank';
+                        websiteLink.classList.add('icon');
+                        const earthIcon = document.createElement('i');
+                        earthIcon.classList.add('fa-solid', 'fa-earth-asia');
+                        websiteLink.appendChild(earthIcon);
+                        iconsDiv.appendChild(websiteLink);
+
+                        hoverItemsDiv.appendChild(name);
+                        hoverItemsDiv.appendChild(company);
+                        hoverItemsDiv.appendChild(iconsDiv);
+
+                        gitItemDiv.appendChild(imageDiv);
+                        gitItemDiv.appendChild(hoverItemsDiv);
+
+                        gitContainer.appendChild(gitItemDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching data for GitHub projects:', error));
         });
-      </script>      
+
+        //Tab JS
+        // Select all tab links and tab content
+        const tabLinks = document.querySelectorAll('.tab-link');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        // Add click event listener to all tab links
+        tabLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                // Remove active class from all tab links
+                tabLinks.forEach(link => link.classList.remove('active'));
+
+                // Add active class to the clicked tab
+                link.classList.add('active');
+
+                // Hide all tab contents
+                tabContents.forEach(content => content.classList.remove('active'));
+
+                // Show the content corresponding to the clicked tab
+                const targetContent = document.getElementById(link.getAttribute('data-tab'));
+                targetContent.classList.add('active');
+            });
+        });
+    </script>
 
 </body>
 

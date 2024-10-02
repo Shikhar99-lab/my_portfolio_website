@@ -211,7 +211,7 @@ section {
 }
 
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .header-content .right-header .name span {
@@ -830,6 +830,43 @@ section {
 
 }
 
+/*Tab CSS*/
+.tabs {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.tab-link {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: #24AE60;
+  display: flex;
+  align-items: center;
+}
+
+.tab-link.active {
+  background-color: #24AE60;
+  color: white;
+  border-color: #24AE60;
+}
+
+/* Tab content hidden by default */
+.tab-content {
+  display: none;
+}
+
+/* Active tab content shown */
+.tab-content.active {
+  display: block;
+}
+
 
 /*Mobile CSS*/
 
@@ -1124,6 +1161,14 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+
+  .tabs {
+    flex-direction: column;
+  }
+  .tab-link{
+    margin: 3%;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
@@ -1174,13 +1219,13 @@ section {
   flex: 1;
 }
 
-.contact-content-con h4{
+.contact-content-con h4 {
   margin-top: 1rem;
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
 }
 
-.showcase1{
+.showcase1 {
   text-align: center;
 }
