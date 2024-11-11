@@ -151,6 +151,11 @@
       "image": "img/funky.png",
       "name": "Funky Crabs",
       "website": "https://www.funkycrabs.com"
+    },
+    {
+      "image": "img/yatin.png",
+      "name": "Yatin Karpe",
+      "website": "https://yatinkarpe.github.io/portfolio/"
     }
   ]
 }
