@@ -1114,8 +1114,17 @@ section {
 
   .about-container .left-about {
     padding-right: 0rem;
+    text-align: center;
   }
 
+  .btn-con {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-columns {
+    display: flex;
+    flex-direction: column;
+  }
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
